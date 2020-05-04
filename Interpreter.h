@@ -4,5 +4,5 @@
 
 class Interpreter {
 public:
-    void Run(Memory &mem, int maxIterations = 100) const;
+    static void Run(Memory &mem, int maxIterations = 100);
 };

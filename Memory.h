@@ -23,7 +23,8 @@ public:
     int GetReg(Register reg) const;
     void SetReg(Register reg, int value);
 
-    // To work with stack
+    //To work with stack
     //void Push(int value);
     //int Pop();
+    ~Memory();
 };

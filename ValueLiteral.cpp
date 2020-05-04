@@ -1,5 +1,10 @@
+#include <iostream>
 #include "ValueLiteral.h"
 
 int ValueLiteral::Get(const Memory &mem) const {
-    return 0;
+    return value_;
+}
+
+ValueLiteral::~ValueLiteral() {
+    std::cout<<"~ValueLiteral"<<std::endl;
 }
