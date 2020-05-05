@@ -3,4 +3,4 @@ project(Assembly_Intepreter)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Assembly_Intepreter main.cpp Memory.cpp Memory.h IOperation.h IValue.h IMutableValue.h ValueLiteral.cpp ValueLiteral.h ValueRegister.cpp ValueRegister.h Interpreter.cpp Interpreter.h AddOp.cpp AddOp.h CmpOp.cpp CmpOp.h JeOp.cpp JeOp.h JgOp.cpp JgOp.h JlOp.cpp JlOp.h JmpOp.cpp JmpOp.h MovOp.cpp MovOp.h MulOp.cpp MulOp.h PopOp.cpp PopOp.h PushOp.cpp PushOp.h)
+add_executable(Assembly_Intepreter Src/main.cpp Src/Memory.cpp Include/Memory.h Include/IOperation.h Include/IValue.h Include/IMutableValue.h Src/ValueLiteral.cpp Include/ValueLiteral.h Src/ValueRegister.cpp Include/ValueRegister.h Src/Interpreter.cpp Include/Interpreter.h Src/AddOp.cpp Include/AddOp.h Src/CmpOp.cpp Include/CmpOp.h Src/JeOp.cpp Include/JeOp.h Src/JgOp.cpp Include/JgOp.h Src/JlOp.cpp Include/JlOp.h Src/JmpOp.cpp Include/JmpOp.h Src/MovOp.cpp Include/MovOp.h Src/MulOp.cpp Include/MulOp.h)

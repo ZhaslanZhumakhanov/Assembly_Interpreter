@@ -9,4 +9,5 @@ class JmpOp : public IOperation {
 public:
     explicit JmpOp(IValue *const op1) : op1_(op1) {}
     void Apply(Memory &mem) override;
+    ~JmpOp() override;
 };

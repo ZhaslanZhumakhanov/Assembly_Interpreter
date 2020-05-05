@@ -1,4 +1,4 @@
-#include "Memory.h"
+#include "../Include/Memory.h"
 
 IOperation *Memory::GetCurrentOp() const {
     return instructions.at(GetReg(line));
@@ -22,7 +22,7 @@ void Memory::SetReg(Register reg, int value) {
 }
 
 Memory::~Memory() {
-    for (auto& instruction:instructions){
+    for (auto & instruction : instructions){
         delete instruction;
     }
 }

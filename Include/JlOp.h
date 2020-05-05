@@ -10,4 +10,5 @@ class JlOp : public IOperation {
 public:
     explicit JlOp(IValue *const op1) : op1_(op1) {}
     void Apply(Memory &mem) override;
+    ~JlOp() override;
 };

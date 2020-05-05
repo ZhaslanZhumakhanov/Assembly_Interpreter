@@ -1,5 +1,5 @@
 #include <iostream>
-#include "ValueRegister.h"
+#include "../Include/ValueRegister.h"
 
 void ValueRegister::Set(Memory &mem, int value) {
     mem.SetReg(reg_,value);
@@ -10,5 +10,5 @@ int ValueRegister::Get(const Memory &mem) const {
 }
 
 ValueRegister::~ValueRegister() {
-    std::cout<<"~ValueRegister"<<std::endl;
+    std::cout << "~ValueRegister" << std::endl;
 }

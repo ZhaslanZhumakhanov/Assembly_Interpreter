@@ -11,4 +11,5 @@ class CmpOp : public IOperation {
 public:
     CmpOp(const IValue *op1, const IValue *op2) : op1_(op1), op2_(op2) {}
     void Apply(Memory &mem) override;
+    ~CmpOp() override;
 };
