@@ -1,13 +1,13 @@
 #include <iostream>
 #include <cassert>
-#include "../Include/Interpreter.h"
-#include "../Include/MovOp.h"
-#include "../Include/ValueRegister.h"
-#include "../Include/MulOp.h"
-#include "../Include/AddOp.h"
-#include "../Include/CmpOp.h"
-#include "../Include/JgOp.h"
-#include "../Include/ValueLiteral.h"
+#include "Include/Interpreter.h"
+#include "Include/MovOp.h"
+#include "Include/ValueRegister.h"
+#include "Include/MulOp.h"
+#include "Include/AddOp.h"
+#include "Include/CmpOp.h"
+#include "Include/JgOp.h"
+#include "Include/ValueLiteral.h"
 
 int main() {
     // Это тот самый код, который считает факториал числа в регистре r0
